@@ -133,3 +133,86 @@ El proyecto se compiló correctamente utilizando sbt desde la terminal integrada
 Finalmente, se ejecutó el programa y se comprobó que la salida se mostraba correctamente en la terminal.
 
 ![Ejecución del proyecto](../images/vscode-sbt-run.png)
+
+## Entorno 3 — IntelliJ IDEA Community + Scala 2.12.21 + sbt
+
+En este tercer entorno se prepara un proyecto Scala utilizando **IntelliJ IDEA Community Edition**, **Scala Plugin**, **JDK 17**, **Scala 2.12.21** y **sbt**.
+
+### Instalación de IntelliJ IDEA
+
+Se descargó e instaló **IntelliJ IDEA Community Edition** utilizando su instalador para Windows.
+
+![Instalación de IntelliJ IDEA](../images/intellij-inicio.png)
+
+Una vez instalado, se comprobó la versión disponible desde el propio programa.
+
+![Versión de IntelliJ IDEA](../images/intellij-version.png)
+
+### Instalación del plugin de Scala
+
+Desde el apartado de plugins de IntelliJ se buscó la extensión necesaria para añadir soporte para Scala.
+
+![Búsqueda del plugin de Scala](../images/intellij-plugin-busqueda.png)
+
+Posteriormente, se instaló el plugin para poder trabajar con proyectos Scala dentro del IDE.
+
+![Plugin de Scala instalado](../images/intellij-plugin-scala.png)
+
+### Configuración de JDK 17
+
+Durante la creación del proyecto `scala_intellij` se seleccionó **JDK 17** como versión de Java para el proyecto.
+
+![Configuración de JDK 17](../images/intellij-jdk17.png)
+
+### Configuración del proyecto sbt
+
+Dentro del proyecto se utilizó un archivo `build.sbt` para definir la configuración principal.
+
+En este archivo se configuró explícitamente **Scala 2.12.21** y el nombre del proyecto.
+
+![Contenido de build.sbt](../images/intellij-build-sbt.png)
+
+Al detectar el archivo `build.sbt`, IntelliJ solicitó cargar y construir la configuración del proyecto sbt.
+
+![Detección del proyecto sbt](../images/intellij-sbt-detectado.png)
+
+Después de aceptar la importación, IntelliJ construyó automáticamente la estructura del proyecto.
+
+![Importación del proyecto sbt](../images/intellij-sbt-importado.png)
+
+### Estructura del proyecto
+
+Una vez completada la importación, la estructura del proyecto quedó organizada con el archivo `build.sbt`, la carpeta `project` y el código fuente dentro de `src/main/scala`.
+
+![Estructura del proyecto](../images/intellij-proyecto.png)
+
+Dentro de `Main.scala` se creó el programa utilizado para comprobar el funcionamiento del entorno.
+
+![Contenido de Main.scala](../images/intellij-main-scala.png)
+
+### Ejecución desde IntelliJ IDEA
+
+El programa se ejecutó utilizando el botón de ejecución integrado de IntelliJ IDEA.
+
+La consola del IDE mostró correctamente la salida del programa.
+
+![Ejecución desde IntelliJ IDEA](../images/intellij-run.png)
+
+### Compilación y ejecución con sbt
+
+Además de ejecutarlo desde el propio IDE, se comprobó también el funcionamiento del proyecto utilizando **sbt** desde la terminal.
+
+Primero se realizó la compilación del proyecto.
+
+![Compilación con sbt](../images/intellij-sbt-compile.png)
+
+Posteriormente se ejecutó el programa utilizando sbt y se comprobó correctamente la salida.
+
+![Ejecución con sbt](../images/intellij-sbt-run.png)
+
+### Configuración de UTF-8
+
+Durante las pruebas realizadas tanto en **Visual Studio Code** como en **IntelliJ IDEA**, fue necesario configurar manualmente la codificación **UTF-8** en la terminal para que los caracteres especiales y los acentos se mostraran correctamente durante la ejecución con sbt.
+
+![Configuración de UTF-8 en terminal](../images/sbt-utf8-configuracion.png) 
+
