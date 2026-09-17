@@ -19,3 +19,19 @@ en Scala utilizando JupyterLab.
 Version de Scala en Jupyter Lab
 
 ![JupyterLab con Scala](../images/scala_version.png)
+
+## Algunos ejercicios
+Ejercicio 1
+![Ejercio Scala 1](../images/ejercicio_01.png)
+
+Ejercicio 4
+![Ejercio Scala 4](../images/ejercicio_04.png)
+
+Ejercicio 9
+![Ejercio Scala 9](../images/ejercicio_09.png)
+
+Ejercicio 12
+![Ejercio Scala 12](../images/ejercicio_12.png)
+
+Ejercicio 15
+![Ejercio Scala 15](../images/ejercicio_15.png)
