@@ -18,7 +18,7 @@ en Scala utilizando JupyterLab.
 ## Evidencias
 Version de Scala en Jupyter Lab
 
-![JupyterLab con Scala](../images/scala_version.png)
+![JupyterLab con Scala](../images/scala-version.png)
 
 ## Algunos ejercicios
 Ejercicio 1
