@@ -13,7 +13,7 @@ en Scala utilizando JupyterLab.
 
 ## Notebook
 
-[Ver Notebook de la Parte 2](parte2-scala.ipynb)
+[Ver Notebook de la Parte 2](notebook/parte2-scala.ipynb)
 
 ## Evidencias
 Version de Scala en Jupyter Lab
