@@ -1,5 +1,4 @@
 # practica_scala
-```markdown
 # Práctica de programación básica con Scala
 
 ## Autor
@@ -24,7 +23,7 @@ Visual Studio Code + Metals + sbt
 
 ### Entorno 3
 IntelliJ IDEA Community + sbt
-```
+
 
 ## Parte 2 — Programación con Scala
 
