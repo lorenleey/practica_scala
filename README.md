@@ -1,4 +1,3 @@
-# practica_scala
 # Práctica de programación básica con Scala
 
 ## Autor
