@@ -18,20 +18,20 @@ en Scala utilizando JupyterLab.
 ## Evidencias
 Version de Scala en Jupyter Lab
 
-![JupyterLab con Scala](../images/scala-version.png)
+![JupyterLab con Scala](images/scala-version.png)
 
 ## Algunos ejercicios
 Ejercicio 1
-![Ejercio Scala 1](../images/ejercicio-01.png)
+![Ejercio Scala 1](images/ejercicio-01.png)
 
 Ejercicio 4
-![Ejercio Scala 4](../images/ejercicio-04.png)
+![Ejercio Scala 4](images/ejercicio-04.png)
 
-Ejercicio 9
-![Ejercio Scala 9](../images/ejercicio-09.png)
+Ejercicio 8
+![Ejercio Scala 9](images/ejercicio-09.png)
 
 Ejercicio 12
-![Ejercio Scala 12](../images/ejercicio-12.png)
+![Ejercio Scala 12](images/ejercicio-12.png)
 
 Ejercicio 15
-![Ejercio Scala 15](../images/ejercicio-15.png)
+![Ejercio Scala 15](images/ejercicio-15.png)
