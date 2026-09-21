@@ -27,7 +27,7 @@ El proyecto utiliza una estructura sbt:
 
 El archivo `build.sbt` contiene la configuración del proyecto y la versión de Scala utilizada.
 
-![build.sbt](images/vscode-build-sbt.png)
+![build.sbt](images/vscode-built-sbt.png)
 
 El archivo `Main.scala` contiene los datos, funciones y lógica principal de la aplicación.
 
