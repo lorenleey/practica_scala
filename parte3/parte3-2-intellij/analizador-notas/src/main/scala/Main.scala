@@ -155,4 +155,32 @@ object Main extends App {
 
   val aprobadosEvaluacion2 = contarAprobados(notasSegundaEvaluacion)
   val mejorEvaluacion2 = mejorNota(notasSegundaEvaluacion)
+
+  println()
+  // Comparativa entre evaluación 1 y 2
+
+  println("COMPARATIVA")
+  println()
+
+  println(s"Mejor nota primera evaluacion: $mejorEvaluacion1")
+  println(s"Mejor nota segunda evaluacion: $mejorEvaluacion2")
+
+  println(s"Aprobados primera evaluacion: $aprobadosEvaluacion1")
+  println(s"Aprobados segunda evaluacion: $aprobadosEvaluacion2")
+
+  if (aprobadosEvaluacion2 > aprobadosEvaluacion1) {
+    println("El grupo ha mejorado")
+  } else if (aprobadosEvaluacion2 < aprobadosEvaluacion1) {
+    println("El grupo ha empeorado")
+  } else {
+    println("El grupo se ha mantenido igual")
+  }
+
+  println("LISTAS")
+  println()
+
+  val nuevosEstudiantes = "Maritza" :: estudiantes
+
+  println(s"Lista original: $estudiantes")
+  println(s"Lista nueva: $nuevosEstudiantes")
 }
