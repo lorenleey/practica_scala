@@ -25,7 +25,7 @@ El programa determina qué estudiantes aprueban o suspenden, calcula estadístic
 ## Estructura
 
 
-![Proyecto en IntelliJ IDEA](images/intellij-proyecto.png)
+![Proyecto en IntelliJ IDEA](images/intellij-estructura.png)
 
 El archivo `build.sbt` contiene la configuración de Scala utilizada por el proyecto.
 
