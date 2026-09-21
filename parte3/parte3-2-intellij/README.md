@@ -10,6 +10,11 @@
   Comprobamos el entorno
   ![Proyecto en IntelliJ IDEA](images/intellij-IDE.png)
 
+Plugin de Scala activo
+  ![Plugin de Scala](images/intellij-plugin-scala.png)
+
+
+
 
 ## Descripción
 
@@ -77,6 +82,8 @@ Los resultados obtenidos son:
 - Suspensos: 2
 - Mejor nota: 10
 
+  
+
 ## Segunda evaluación
 
 Los resultados obtenidos son:
@@ -105,10 +112,13 @@ Esta operación crea una nueva lista y mantiene sin cambios la lista original, y
 El proyecto se compila utilizando:
 
 ` sbt compile `
+![sbt compile](images/intellij-sbt.compile.png)
+
 
 Posteriormente se ejecuta utilizando:
 
 ` sbt run `
+![sbt run](images/intellij-sbt.run.png)
 
 ## Problemas encontrados
 
@@ -119,7 +129,6 @@ También se configuró la codificación UTF-8 cuando fue necesario para mostrar 
 ## Evidencias
 
 
-![Plugin de Scala](images/intellij-plugin-scala.png)
 
 
 ![Compilación con sbt](images/sbt-compile.png)
