@@ -1,5 +1,3 @@
-package src.main.scala
-
 object Main extends App {
   val estudiantes = List(
     "Ana",
@@ -54,6 +52,19 @@ object Main extends App {
       i += 1
     }
   }
+  def clasificacion(nota: Int): String = {
+
+    if (nota >= 9) {
+      "EXCELENTE"
+    } else if (nota >= 7) {
+      "NOTABLE"
+    } else if (nota >= 5) {
+      "APROBADO"
+    } else {
+      "SUSPENSO"
+    }
+  }
+
 
   println("PRIMERA EVALUACIÓN")
   mostrarNotas(notas)
