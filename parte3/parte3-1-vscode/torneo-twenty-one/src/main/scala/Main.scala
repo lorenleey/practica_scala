@@ -50,7 +50,7 @@ def estadoMano(puntuacion: Int):String={
     var i = 0
 
     while (i < puntuacionesR.length){
-        println(s"${jugadores(i)} -> ${puntuacionesR(i)} -> ${estadoMano(puntuacionesRonda(i))}"
+        println(s"${jugadores(i)} -> ${puntuacionesR(i)} -> ${estadoMano(puntuacionesR(i))}"
         )
 
         i += 1
@@ -106,11 +106,10 @@ def estadoMano(puntuacion: Int):String={
 
     mejor
   }
-
+  println(" RONDA 1 ")
 mostrarManos(puntuaciones)
 
   // RONDA 1
-  println(" RONDA 1 ")
 
 def mostrarResumen(puntuacionesR:Array[Int]):Unit = {
   println()
@@ -128,7 +127,6 @@ def mostrarResumen(puntuacionesR:Array[Int]):Unit = {
   val mejorRonda1 = mejorPuntuacion(puntuaciones)
 
   // RONDA 2
-  println(" RONDA 2 ")
 
 val puntuacionesRonda2 = Array(
   22,
@@ -137,10 +135,35 @@ val puntuacionesRonda2 = Array(
   21,
   17
 )
+  println()
+  println(" RONDA 2 ")
+
   mostrarManos(puntuacionesRonda2)
   mostrarResumen(puntuacionesRonda2)
   val mejorRonda2 = mejorPuntuacion(puntuacionesRonda2)
 
   // Comparación de las dos rondas
+  println()
+  println(" COMPARACIÓN")
+  println(s"Mejor puntuación de la primera ronda: ${mejorRonda1}")
+  println(s"Mejor puntuación de la segunda ronda: ${mejorRonda2}")
 
+if (mejorRonda1 > mejorRonda2){
+  println("La ronda 1 tuvo la mejor puntuación")
+} else if (mejorRonda2 > mejorRonda1){
+  println("La ronda 2 tuvo la mejor puntuación ")
+} else {
+  println("Las dos rondas tuvieron la misma mejor puntuación")
+}
+
+
+// Repetición con foreach
+
+println()
+  println(" RECORRIDO CON FOREACH:")
+  println()
+
+  puntuaciones.foreach(puntuacion => {
+    println(s"$puntuacion -> ${estadoMano(puntuacion)}")
+  })
   }

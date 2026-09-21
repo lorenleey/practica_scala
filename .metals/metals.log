@@ -1283,3 +1283,5 @@ ADVERTENCIA: Unmatched cancel notification for request id 3
 2026.09.21 17:05:45 INFO  Scala CLI started for C:\Users\Usuario\practica_scala
 2026.09.21 17:05:45 WARN  no build tool detected in workspace 'C:\Users\Usuario\practica_scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2026.09.21 17:05:45 WARN  Build server is not auto-connectable.
+2026.09.21 17:06:34 INFO  compiling practica_scala_d5c0a6989e (2 scala sources)
+2026.09.21 17:06:34 INFO  time: compiled practica_scala_d5c0a6989e in 0.39s
