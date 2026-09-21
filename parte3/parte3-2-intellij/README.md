@@ -8,10 +8,10 @@
 - sbt
 
   Comprobamos el entorno
-  ![Proyecto en IntelliJ IDEA](images/intellij-IDE.png)
+  ![Proyecto en IntelliJ IDEA](images/intellij-abierto.png)
 
 Plugin de Scala activo
-  ![Plugin de Scala](images/intellij-plugin-scala.png)
+  ![Plugin de Scala](images/intellij-scala-plugin.png)
 
 
 
@@ -112,27 +112,18 @@ Esta operación crea una nueva lista y mantiene sin cambios la lista original, y
 El proyecto se compila utilizando:
 
 ` sbt compile `
-![sbt compile](images/intellij-sbt.compile.png)
+![sbt compile](images/intellij-sbt-compile.png)
 
 
 Posteriormente se ejecuta utilizando:
 
 ` sbt run `
-![sbt run](images/intellij-sbt.run.png)
+![sbt run](images/intellij-sbt-run.png)
 
 ## Problemas encontrados
 
 Durante la ejecución fue necesario comprobar que el proyecto utilizara JDK 17, Scala 2.12.21 y que sbt estuviera disponible correctamente desde la terminal.
 
 También se configuró la codificación UTF-8 cuando fue necesario para mostrar correctamente los caracteres especiales.
-
-## Evidencias
-
-
-
-
-![Compilación con sbt](images/sbt-compile.png)
-
-![Ejecución con sbt](images/sbt-run.png)
 
 ![Salida final](images/intellij-salida.png)
