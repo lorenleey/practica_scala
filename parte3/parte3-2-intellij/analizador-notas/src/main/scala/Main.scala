@@ -106,4 +106,53 @@ object Main extends App {
     println(s"Suspensos: $numeroSuspensos")
     println(s"Mejor nota: ${mejorNota(notasEvaluacion)}")
   }
+
+  def mostrarClasificaciones(notasEvaluacion: Array[Int]): Unit = {
+
+    var i = 0
+
+    while (i < notasEvaluacion.length) {
+
+      println(
+        s"${estudiantes(i)} -> ${notasEvaluacion(i)} -> ${clasificacion(notasEvaluacion(i))}"
+      )
+
+      i += 1
+    }
+  }
+
+  mostrarResumen(notas)
+  println()
+  println("--- Clasificación ---")
+  println()
+
+  mostrarClasificaciones(notas)
+
+  val aprobadosEvaluacion1 = contarAprobados(notas)
+  val mejorEvaluacion1 = mejorNota(notas)
+
+  val notasSegundaEvaluacion = Array(
+    9,
+    5,
+    8,
+    7,
+    6
+  )
+
+  println()
+  println("SEGUNDA EVALUACIÓN")
+  println()
+
+  mostrarNotas(notasSegundaEvaluacion)
+
+  mostrarResumen(notasSegundaEvaluacion)
+
+  println()
+  println("--- Clasificación ---")
+  println()
+
+  mostrarClasificaciones(notasSegundaEvaluacion)
+
+  val aprobadosEvaluacion2 = contarAprobados(notasSegundaEvaluacion)
+  val mejorEvaluacion2 = mejorNota(notasSegundaEvaluacion)
 }
