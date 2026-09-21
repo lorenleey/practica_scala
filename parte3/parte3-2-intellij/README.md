@@ -120,10 +120,5 @@ Posteriormente se ejecuta utilizando:
 ` sbt run `
 ![sbt run](images/intellij-sbt-run.png)
 
-## Problemas encontrados
-
-Durante la ejecución fue necesario comprobar que el proyecto utilizara JDK 17, Scala 2.12.21 y que sbt estuviera disponible correctamente desde la terminal.
-
-También se configuró la codificación UTF-8 cuando fue necesario para mostrar correctamente los caracteres especiales.
 
 ![Salida final](images/intellij-salida.png)
